@@ -1,0 +1,35 @@
+.photo-pic-div{
+    height: 120px;
+    width: 120px;
+    transform:translate(0);
+    border-radius:50%;
+    overflow: hidden;
+    border: 1px solid grey;
+        object-fit: cover;  
+        object-fit: cover;  
+
+}
+#photo{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;  
+
+}
+#file{
+    display:none
+}
+#uploadBtn{
+    height: 25px;
+    width: 100%;
+    position:absolute;
+    top: 94px;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    color: wheat;
+    line-height: 20px;
+    font-family: sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+}

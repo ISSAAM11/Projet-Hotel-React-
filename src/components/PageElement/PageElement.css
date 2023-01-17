@@ -1,0 +1,14 @@
+.main-footer{
+    color: rgb(40, 40, 40);
+    background-color: rgb(255, 255, 255);
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.wechat-img{
+    width:150px;
+    opacity: 0.2;
+    height: 120px;
+}

@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+.html{
+  height: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app{
+  background-color: rgb(255, 255, 255);
+  min-width: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.page-container{
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 60px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hauteur-minimale{ 
+  height : 90%;
+  min-height : 100px;
+  max-height : 510px;
 }
+
+.content-wrap{
+  flex:1
+}
+
+.signin {
+  max-width: 360px;
+  padding-top: 6rem;  
+  width: 100%;
+  margin : auto;
+}
+
+.ContactUs {
+  max-width: 1000px;
+  width: 100%;
+  margin : auto;
+}
+.signin_conntainer{
+  background-color: #fbfbfb;
+  box-shadow: 0px 0px 4px rgb(179, 179, 179);
+}
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.input-phone{
+  margin-left: 40px;
+  Width: 100%-40px;
+}
+
+.Sidebar{
+  margin-top: -25px;
+    width: 189px; 
+    height: 100vh;
+}
+
+.footer {
+  bottom: 0px;
+  width: 100%;
+  padding: 2em;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  color:white;
+  background-color: rgb(18, 18, 18);
+}
+
+.footer-home {
+  bottom: 0px;
+  width: 100%;
+  padding: .5em;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  color:rgb(13, 13, 13);
+  position: relative;
+  margin-top: auto;
+}
+
+.votre-information{
+  padding-Left: 8%;
+  padding-right: 8%;
+
+  padding-top: 20px;
+  padding-bottom: 10px;;
+}
+
+.login-background{
+  min-height: 84vh;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 100;
+  width: 100%;
+  color: #000000;
+  padding: 15px 0;
+}
+
+#footer-handler{
+  bottom: 100;
+  width: 100%;
+  color: #000000;
+}
+
+#photo-header{
+  height: 40px;
+  width: 40px;
+  border-radius:50%;
+  overflow: hidden;    
+  object-fit: cover;  
+}
+
+#footer-nav {
+  position: absolute;
+  bottom: 30px;
+}
+
+
+
+
+
